@@ -9,7 +9,7 @@ public class SpikePit extends Obstacle{
     }
 
     public void trap(Character character){
-        System.out.println(name + " trapped " + character.getName() + " inside!. It is " + width + "meters wide");
+        System.out.println(name + " trapped " + character.getName() + " inside!. It is " + width + " meters wide");
         character.reduceHealth(damage);
     }
 }
